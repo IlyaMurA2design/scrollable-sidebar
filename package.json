@@ -1,0 +1,23 @@
+{
+  "name": "@musiermoore/scrollable-sidebar",
+  "version": "1.0.0",
+  "description": "Make long sidebars scrollable on scroll",
+  "main": "sidebar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musiermoore/scrollable-sidebar.git"
+  },
+  "keywords": [
+    "sidebar",
+    "scrollable-sidebar"
+  ],
+  "author": "musiermoore",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/musiermoore/scrollable-sidebar/issues"
+  },
+  "homepage": "https://github.com/musiermoore/scrollable-sidebar#readme"
+}
