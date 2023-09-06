@@ -29,7 +29,12 @@ class ScrollableSidebar {
 
     #initSidebar() {
         const sidebar = document.querySelector(this.#sidebarSelector)
-        sidebar?.classList.add('js-scrollable-sidebar')
+        const parent = document.querySelector(this.#parentSelector)
+        const container = document.querySelector(this.#containerSelector)
+
+        sidebar?.classList.add('js-scrollable-sidebar', 'scrollable-sidebar-inner')
+        parent?.classList.add('scrollable-sidebar')
+        container?.classList.add('scrollable-sidebar-container')
 
         $(window).on('scroll resize', () => {
             this.#calculatePositions()
