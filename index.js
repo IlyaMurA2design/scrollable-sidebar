@@ -1,4 +1,4 @@
-export class Sidebar {
+export default class Sidebar {
     #parentSelector;
     #containerSelector;
     #sidebarSelector;
@@ -169,3 +169,5 @@ export class Sidebar {
         sidebar?.classList.remove('js-scrollable-sidebar')
     }
 }
+
+module.exports = Sidebar
