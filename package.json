@@ -2,7 +2,7 @@
   "name": "@musiermoore/scrollable-sidebar",
   "version": "1.0.0",
   "description": "Make long sidebars scrollable on scroll",
-  "main": "sidebar.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
